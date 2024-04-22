@@ -16,28 +16,32 @@ Este projeto é uma aplicação web que ajuda os usuários a encontrar o melhor 
 ## Como rodar o projeto
 **Clone o repositório**
 ```
-
+https://github.com/GabriellGds/petshop-dti.git
 ```
 
-**Navegue até a pasta cmd 
+**Navegue até a pasta cmd** 
 ```
 cd cmd 
 ```
-execute o backend
+**execute o backend**
 ```
 go run main.go
 ```
-**navegue até a pasta petshop
+**navegue até a pasta petshop**
 ```
 cd ../petshop
 ```
-execute o fronted
+**execute o fronted**
 ```
 npm run dev
 ```
 **abra o navegador navegador nessa url
 ```
 http://127.0.0.1:5173
+```
+**Para rodar o teste, excute este comando na raiz do projeto**
+```
+go test -v ./...
 ```
 
 ## Decisões de Projeto
