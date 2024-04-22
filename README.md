@@ -53,7 +53,7 @@ npm install
 ```
 npm run dev
 ```
-**abra o navegador navegador nessa url
+**abra o navegador navegador nessa url**
 ```
 http://127.0.0.1:5173
 ```
