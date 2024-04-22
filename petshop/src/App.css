@@ -1,0 +1,107 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.petshops {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.petshop {
+  flex: 1 0 30%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.petshop:nth-child(1) {
+  background-color: #f8d7da;
+}
+
+.petshop:nth-child(2) {
+  background-color: #d4edda;
+}
+
+.petshop:nth-child(3) {
+  background-color: #cce5ff;
+}
+
+.petshop h3, .petshop p {
+  padding: 0 25px;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-group input {
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #6c63ff;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5340de;
+}
+
+.result {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .petshop {
+    flex: 1 0 200px;
+  }
+}
+
+
