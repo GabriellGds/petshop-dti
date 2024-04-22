@@ -11,7 +11,9 @@ Este projeto é uma aplicação web que ajuda os usuários a encontrar o melhor 
 3. O backend espera a data no formato `yyyy/mm/dd`.
 4. O backend retornará um erro se nenhum cachorro for fornecido.
 
-
+## Pré-Requisitos
+- [Go](https://go.dev/): The Go programming language.
+- [Node](https://nodejs.org/en): Node js
 
 ## Como rodar o projeto
 **Clone o repositório**
